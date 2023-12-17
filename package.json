@@ -1,0 +1,12 @@
+{
+  "name": "fruit-and-vegetables-e-market",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An academic project representing the Node.js [MongoDB + Express] project",
+  "scripts": {
+    "setup": "cd backend && yarn && cd ../mobile && yarn",
+    "start:backend": "cd backend && yarn run start-dev",
+    "start:mobile": "cd mobile && yarn run start"
+  },
+  "license": "MIT"
+}
