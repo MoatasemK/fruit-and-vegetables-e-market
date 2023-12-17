@@ -1,0 +1,56 @@
+{
+  "name": "@fruit-and-vegetables-e-market/restful-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "imports": {
+    "#app/*": [
+      "./src/*"
+    ]
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "start-dev": "cross-env NODE_ENV=development nodemon src/server.js"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "node.js",
+    "express",
+    "rest",
+    "restful",
+    "api",
+    "rest-api",
+    "academic-project",
+    "tekup"
+  ],
+  "author": {
+    "name": "Imed Jaber",
+    "email": "imed-jaberi@outlook.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "prettier": "^3.1.1",
+    "standard": "^17.0.0"
+  }
+}
